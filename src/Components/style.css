@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture|Pacifico');
+nav {
+    margin-top: 20vh;
+    
+}
+.home, .page1, .page2, .page3 {
+    color: white;
+    height : 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Black And White Picture', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+.home h1, .page1 h1 , .page2 h1 , .page3 h1 {
+    font-size: 70px;
+
+}
+.home {
+    background:darkslategray;
+}
+.page1 {
+    background:darkslateblue;
+}
+.page2 {
+    background:darkolivegreen;
+}
+.page3 {
+    background: darkred;
+}
